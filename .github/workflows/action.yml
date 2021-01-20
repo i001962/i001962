@@ -20,6 +20,8 @@ jobs:
           committer_branch: master
           config_timezone: America/Chicago
           repositories_forks: yes
+          plugin_followup: yes
+          plugin_languages: yes
           plugin_lines: yes
           plugin_traffic: true
           plugin_habits: yes
