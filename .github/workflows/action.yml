@@ -33,5 +33,5 @@ jobs:
           plugin_stackoverflow: yes
           plugin_stackoverflow_user: 1674992
           plugin_stackoverflow_sections: answers-top, answers-recent
-          plugin_stackoverflow_limit: 2                                # Display 2 entries per section
+          plugin_stackoverflow_limit: 3                                # Display 3 entries per section
           plugin_stackoverflow_lines: 4                                # Display 4 lines per entry
