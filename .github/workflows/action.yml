@@ -13,7 +13,7 @@ jobs:
       - uses: lowlighter/metrics@latest
         with:
           # Remove header section
-          base: repositories
+          base: activity, community, repositories, metadata
         
           # Your GitHub token
           token: ${{ secrets.METRICS_TOKEN }}
