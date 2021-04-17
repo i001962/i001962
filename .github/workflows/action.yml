@@ -12,6 +12,9 @@ jobs:
       # See action.yml for all options
       - uses: lowlighter/metrics@latest
         with:
+          # Remove header section
+          base: repositories
+        
           # Your GitHub token
           token: ${{ secrets.METRICS_TOKEN }}
           # GITHUB_TOKEN is a special auto-generated token restricted to current repository, which is used to push files in it
