@@ -27,8 +27,8 @@ jobs:
           template: classic
           repositories_forks: yes
 
-          plugin_followup: yes
-          plugin_followup_sections: user
+          plugin_followup: no
+#           plugin_followup_sections: user
 
           plugin_notable: yes
           plugin_lines: yes
