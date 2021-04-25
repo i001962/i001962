@@ -28,7 +28,6 @@ jobs:
           repositories_forks: yes
 
           plugin_notable: yes
-          plugin_notable_filter: stars:>10
           plugin_notable_repositories: yes
           plugin_lines: yes
           plugin_isocalendar: yes
