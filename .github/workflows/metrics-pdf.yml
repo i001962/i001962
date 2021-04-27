@@ -1,0 +1,45 @@
+name: Metrics
+on:
+  # Run once per day
+  schedule: [{cron: "0 0 * * *"}]
+  # Lines below let you run workflow manually and on each commit
+  push: {branches: ["master", "main"]}
+  workflow_dispatch:
+jobs:
+  github-metrics:
+    runs-on: ubuntu-latest
+    steps:
+      # See action.yml for all options
+      - uses: lowlighter/metrics@master
+        with:
+        
+          config_timezone: America/Chicago
+          config_output: markdown-pdf
+          
+          # Remove header section
+          base: activity, community, repositories, metadata
+  
+          user: ctjlewis
+          template: classic
+          repositories_forks: yes
+        
+          # Your GitHub token
+          token: ${{ secrets.METRICS_TOKEN }}
+          # GITHUB_TOKEN is a special auto-generated token restricted to current repository, which is used to push files in it
+          committer_token: ${{ secrets.GITHUB_TOKEN }}
+          # Plugins
+          committer_branch: master
+
+          plugin_followup: no
+#           plugin_followup_sections: user
+
+          plugin_notable: yes
+          plugin_lines: yes
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: full-year
+          plugin_languages: yes
+          plugin_stackoverflow: yes
+          plugin_stackoverflow_user: 1674992
+          plugin_stackoverflow_sections: answers-top, answers-recent
+          plugin_stackoverflow_limit: 3                                # Display 3 entries per section
+          plugin_stackoverflow_lines: 4                                # Display 4 lines per entry
