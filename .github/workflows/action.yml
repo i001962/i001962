@@ -12,8 +12,16 @@ jobs:
       # See action.yml for all options
       - uses: lowlighter/metrics@master
         with:
+        
+          config_timezone: America/Chicago
+          config_output: markdown-pdf
+          
           # Remove header section
           base: activity, community, repositories, metadata
+  
+          user: ctjlewis
+          template: classic
+          repositories_forks: yes
         
           # Your GitHub token
           token: ${{ secrets.METRICS_TOKEN }}
@@ -21,11 +29,6 @@ jobs:
           committer_token: ${{ secrets.GITHUB_TOKEN }}
           # Plugins
           committer_branch: master
-          config_timezone: America/Chicago
-  
-          user: ctjlewis
-          template: classic
-          repositories_forks: yes
 
           plugin_followup: no
 #           plugin_followup_sections: user
