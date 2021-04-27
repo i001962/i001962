@@ -1,4 +1,4 @@
-name: Metrics
+name: Render profile
 on:
   # Run once per day
   schedule: [{cron: "0 0 * * *"}]
