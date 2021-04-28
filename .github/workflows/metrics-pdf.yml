@@ -30,7 +30,6 @@ jobs:
           base: activity, community, repositories, metadata
   
           user: ctjlewis
-          template: classic
           repositories_forks: yes
         
           # Your GitHub token
