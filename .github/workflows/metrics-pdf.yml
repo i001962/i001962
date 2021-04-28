@@ -14,7 +14,17 @@ jobs:
         with:
         
           config_timezone: America/Chicago
-          config_output: markdown-pdf
+          config_output: markdown-pdf 
+          # Currently only markdown derived templates are supported
+          template: markdown  
+          # File extensions still default to svg I think so it's better if you explicitely set it to pdf
+          filename: metrics.markdown.pdf 
+          # Url to your markdown template
+          markdown: https://raw.githubusercontent.com/lowlighter/metrics/master/source/templates/markdown/example.pdf.md    
+          # (optional) Folder where embed outputs are stored 
+          markdown_cache: .cache 
+          # (optional) If you want emojis
+          config_twemoji: yes 
           
           # Remove header section
           base: activity, community, repositories, metadata
