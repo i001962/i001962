@@ -20,7 +20,7 @@ jobs:
           # File extensions still default to svg I think so it's better if you explicitely set it to pdf
           filename: metrics.markdown.pdf 
           # Url to your markdown template
-          markdown: https://raw.githubusercontent.com/lowlighter/metrics/master/source/templates/markdown/example.pdf.md    
+          markdown: https://raw.githubusercontent.com/ctjlewis/metrics/resume-template/source/templates/markdown/example.pdf.md    
           # (optional) Folder where embed outputs are stored 
           markdown_cache: .cache 
           # (optional) If you want emojis
