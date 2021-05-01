@@ -18,7 +18,7 @@ jobs:
           # Currently only markdown derived templates are supported
           template: markdown  
           # File extensions still default to svg I think so it's better if you explicitely set it to pdf
-          filename: metrics.markdown.pdf 
+          filename: resume-template.markdown.pdf 
           # Url to your markdown template
           markdown: https://raw.githubusercontent.com/ctjlewis/metrics/resume-template/source/templates/markdown/example.pdf.md    
           # (optional) Folder where embed outputs are stored 
