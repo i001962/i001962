@@ -13,6 +13,8 @@ jobs:
       - uses: ctjlewis/metrics@resume-template
         with:
         
+          debug: yes
+        
           config_timezone: America/Chicago
           config_output: markdown-pdf 
           # Currently only markdown derived templates are supported
