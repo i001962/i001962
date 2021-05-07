@@ -14,12 +14,22 @@ jobs:
         with:
         
           config_timezone: America/Chicago
+          config_output: markdown-pdf 
+          # Currently only markdown derived templates are supported
+          template: markdown  
+          # File extensions still default to svg I think so it's better if you explicitely set it to pdf
+          filename: resume-template.markdown.pdf 
+          # Url to your markdown template
+          markdown: https://raw.githubusercontent.com/ctjlewis/metrics/resume-template/source/templates/markdown/example.pdf.md    
+          # (optional) Folder where embed outputs are stored 
+          markdown_cache: .cache 
+          # (optional) If you want emojis
+          config_twemoji: yes 
           
           # Remove header section
           base: activity, community, repositories, metadata
   
           user: ctjlewis
-          template: classic
           repositories_forks: yes
         
           # Your GitHub token
@@ -41,4 +51,4 @@ jobs:
           plugin_stackoverflow_user: 1674992
           plugin_stackoverflow_sections: answers-top, answers-recent
           plugin_stackoverflow_limit: 3                                # Display 3 entries per section
-          plugin_stackoverflow_lines: 4                                # Display 4 lines per entry
+          plugin_stackoverflow_lines: 4                                # Display 4 lines per entry                            # Display 4 lines per entry
