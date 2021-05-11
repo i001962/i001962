@@ -54,3 +54,7 @@ jobs:
           plugin_stackoverflow_sections: answers-top, answers-recent
           plugin_stackoverflow_limit: 3                                # Display 3 entries per section
           plugin_stackoverflow_lines: 4                                # Display 4 lines per entry
+
+          plugin_activity: yes
+          plugin_activity_days: 30
+          plugin_activity_filter: issue, pr
