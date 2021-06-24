@@ -13,7 +13,7 @@ jobs:
       - uses: lowlighter/metrics@master
         with:
         
-          config_timezone: America/Chicago
+          config_timezone: America/Los_Angeles
           config_output: markdown-pdf 
           # Currently only markdown derived templates are supported
           template: markdown  
@@ -29,7 +29,7 @@ jobs:
           # Remove header section
           base: activity, community, repositories, metadata
   
-          user: ctjlewis
+          user: i001962
           repositories_forks: yes
         
           # Your GitHub token
