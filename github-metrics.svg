@@ -141,7 +141,7 @@
                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
                                         <path fill-rule="evenodd" d="M8 .25a.75.75 0 01.673.418l1.882 3.815 4.21.612a.75.75 0 01.416 1.279l-3.046 2.97.719 4.192a.75.75 0 01-1.088.791L8 12.347l-3.766 1.98a.75.75 0 01-1.088-.79l.72-4.194L.818 6.374a.75.75 0 01.416-1.28l4.21-.611L7.327.668A.75.75 0 018 .25zm0 2.445L6.615 5.5a.75.75 0 01-.564.41l-3.097.45 2.24 2.184a.75.75 0 01.216.664l-.528 3.084 2.769-1.456a.75.75 0 01.698 0l2.77 1.456-.53-3.084a.75.75 0 01.216-.664l2.24-2.183-3.096-.45a.75.75 0 01-.564-.41L8 2.694v.001z"/>
                                     </svg>
-                                    12 Stargazers
+                                    13 Stargazers
                                 </div>
                                 <div class="field">
                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
@@ -175,14 +175,14 @@
                         <rect x="0" y="0" width="460" height="8" fill="white" rx="5"/>
                     </mask>
                     <rect mask="url(#languages-bar)" x="0" y="0" width="0" height="8" fill="#d1d5da"/>
-                    <rect mask="url(#languages-bar)" x="0" y="0" width="123.87279461213885" height="8" fill="#663399"/>
-                    <rect mask="url(#languages-bar)" x="123.87279461213885" y="0" width="116.06910404647304" height="8" fill="#555555"/>
-                    <rect mask="url(#languages-bar)" x="239.94189865861188" y="0" width="103.39660936324714" height="8" fill="#f1e05a"/>
-                    <rect mask="url(#languages-bar)" x="343.338508021859" y="0" width="52.680093236461374" height="8" fill="#f34b7d"/>
-                    <rect mask="url(#languages-bar)" x="396.0186012583204" y="0" width="34.09942448705339" height="8" fill="#3178c6"/>
-                    <rect mask="url(#languages-bar)" x="430.1180257453738" y="0" width="11.120416855155051" height="8" fill="#3572A5"/>
-                    <rect mask="url(#languages-bar)" x="441.23844260052886" y="0" width="9.799886272527496" height="8" fill="#AA6746"/>
-                    <rect mask="url(#languages-bar)" x="451.03832887305634" y="0" width="8.961671126943642" height="8" fill="#00ADD8"/>
+                    <rect mask="url(#languages-bar)" x="0" y="0" width="123.87268860692198" height="8" fill="#663399"/>
+                    <rect mask="url(#languages-bar)" x="123.87268860692198" y="0" width="116.06900471933196" height="8" fill="#555555"/>
+                    <rect mask="url(#languages-bar)" x="239.94169332625393" y="0" width="103.39652088070314" height="8" fill="#f1e05a"/>
+                    <rect mask="url(#languages-bar)" x="343.33821420695705" y="0" width="52.68004815501531" height="8" fill="#f34b7d"/>
+                    <rect mask="url(#languages-bar)" x="396.01826236197235" y="0" width="34.099788955159696" height="8" fill="#3178c6"/>
+                    <rect mask="url(#languages-bar)" x="430.11805131713203" y="0" width="11.12040733876201" height="8" fill="#3572A5"/>
+                    <rect mask="url(#languages-bar)" x="441.2384586558941" y="0" width="9.799877886189941" height="8" fill="#AA6746"/>
+                    <rect mask="url(#languages-bar)" x="451.038336542084" y="0" width="8.961663457915957" height="8" fill="#00ADD8"/>
                 </svg>
                 <div class="field center horizontal-wrap fill-width">
                     <div class="field center no-wrap language">
@@ -668,7 +668,7 @@ You are asking for 'all pages on a domain' so in theory something like "site:cnn
             </section>
             <footer>
                 <span>These metrics do not include all private contributions</span>
-                <span>Last updated 10 Dec 2024, 16:28:58 (timezone America/Los_Angeles) with lowlighter/metrics@3.35.0-beta</span>
+                <span>Last updated 11 Dec 2024, 16:28:58 (timezone America/Los_Angeles) with lowlighter/metrics@3.35.0-beta</span>
             </footer>
         </div>
         <div xmlns="http://www.w3.org/1999/xhtml" id="metrics-end"></div>
